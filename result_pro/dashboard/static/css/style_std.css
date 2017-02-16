@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+.full {
+    background:url(../image/green.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+header
+{
+	background:#fff;!important 
+}
+body{
+    background: url(http://mymaplist.com/img/parallax/back.png);
+	background-color: #444;
+   background: url(http://mymaplist.com/img/parallax/pinlayer2.png),url(http://mymaplist.com/img/parallax/pinlayer1.png),url(http://mymaplist.com/img/parallax/back.png);    
+}
+
+ @font-face {
+    font-family:ncitfont;
+    src:url(../fonts/good%20times%20rg.ttf);
+}
+.ncit 
+{ 
+	color:#80d100;
+ 	font-family:'ncitfont'; 
+	font-size: 25px;
+	letter-spacing: 1px; 
+ }
+ .logo
+ {
+	 padding:20px;
+ }
+ .footp
+ {
+	 font-size: 16px;
+	 color: #fff;
+ }
+ .pad
+ {
+	 padding:5px;
+	 margin:10px;
+
+}
+.first-line
+{
+	padding-top:15px;
+	margin-top:15px;
+}
+
+.but
+{
+	padding-top:10px ;
+	padding-bottom:10px ;
+	margin-top:10px;
+	margin-bottom:10px;
+	
+}
+
+.second-line
+{
+	padding-top:20px;
+	margin-top:20px;
+}
+ .pady
+ {
+	 padding-top:15px;
+	 margin-top:15px;
+
+}

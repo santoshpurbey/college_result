@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+.full {
+    background:url(../image/green.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+header
+{
+	background:#;!important 
+}
+body{
+    background:url(../image/green.jpg);
+	background-color: #444;
+   background: url(http://mymaplist.com/img/parallax/pinlayer2.png),url(http://mymaplist.com/img/parallax/pinlayer1.png),url(http://mymaplist.com/img/parallax/back.png);    
+}
+
+ @font-face {
+    font-family: ncitfont;
+    src:url(../fonts/good%20times%20rg.ttf);
+}
+.ncit 
+{ 
+	color:#FFF;
+ 	font-family:'ncitfont'; 
+	font-size: 30px;
+	letter-spacing: 1px;
+	padding-top:60px;
+ }
+.vertical-offset-100
+ {
+	padding-top:50px; 
+ }
+ .logo
+ {
+	 padding:20px;
+ }
+ .footp
+ {
+	 font-size: 16px;
+	 color: #fff;
+ }
+ .pad
+ {
+	 padding-top:20px;
+}
+.opa
+{
+	opacity:0.9;
+}

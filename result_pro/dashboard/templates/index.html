@@ -1,0 +1,71 @@
+{% load staticfiles %}
+<!doctype html>
+<html class="full img-responsive" lang="en">
+<head>
+<meta charset="utf-8">
+<title>Web Applicaion on Result</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+<!-- Favicons -->
+<link rel="apple-touch-icon-precomposed" href="{% static 'image/war_crop.png' %}">
+<link rel="icon" href="{% static 'image/war.ico' %}">
+</head>
+<body>
+<wrapper>
+      <div class="container">
+       <h1 class="ncit text-center"><img src="{% static 'image/war_white_new.png' %}" class="img-responsive center-block opa" alt="WAR" width="200" height="80"> </h1>
+        </div>
+    
+  <div class="container">
+    <div class="row vertical-offset-100">
+    	<div class="col-md-4 col-md-offset-4">
+    		<div class="panel panel-default opa">
+			  	<div class="panel-heading ">
+			    	<h2 class="panel-title "><strong>Welcome</strong></h>
+			 	</div>
+			  	<div class="panel-body">
+			    	<form accept-charset="UTF-8" role="form" name="George">
+                    <fieldset>
+                    <div class="form-group">
+                    <select class="form-control" name="example" size="1" onChange="go()" >
+					    <option value="#" selected>Select User</option>
+                        <option value="admin.html">Admin</option>
+                        <option value="teacher.html">Teacher</option>
+                        <option value="student.html">Student</option>
+                        </select>
+						
+						<script type="text/javascript">
+						<!--
+						function go(){
+						location=
+						document.George.example.
+						options[document.George.example.selectedIndex].value
+						}
+						//-->
+						</script>
+						</div>
+						<div class="form-group">
+			    		    <input class="form-control" placeholder="User Id" name="username" type="text">
+			    		</div>
+			    		<div class="form-group">
+			    			<input class="form-control" placeholder="Password" name="password" type="password" value="">
+			    		</div>
+		    		  <input class="btn btn-lg btn-success btn-block" type="submit" value="Login" name="test" onClick="go()">
+			    	</fieldset>
+			      	</form>
+			    </div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer><p class="text-center footp pad">&copy; Web Application on Result (WAR)</p></footer>
+        
+    </wrapper>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</body>
+</html>

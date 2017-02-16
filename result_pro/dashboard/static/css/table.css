@@ -1,0 +1,15 @@
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  color: #fff;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+th,
+td {
+  padding: 10px 15px;
+  vertical-align: middle;
+}
+thead {
+  background: #ccc;
+  color: #000;
+}

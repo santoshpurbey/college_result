@@ -1,0 +1,26 @@
+dropdown 
+
+		 <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">JavaScript</a></li>
+    </ul>
+  </div>
+
+previous interactive 
+
+ <div class="dropdown pull-right pad">
+ <button class="btn-default dropdown-toggle btn-lg " type="button" id="dropdownMenu1" data-toggle="dropdown">
+    <span class="glyphicon glyphicon-cog"></span> Setting <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Profile</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Details</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Settings</a></li>
+    <li role="presentation" class="divider"></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Log Out</a></li>
+  </ul>
+	</div> 
